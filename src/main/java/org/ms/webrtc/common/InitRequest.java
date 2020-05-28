@@ -2,6 +2,9 @@ package org.ms.webrtc.common;
 
 import lombok.*;
 
+/**
+ * 初始化请求
+ */
 @Data
 @Builder
 @NoArgsConstructor

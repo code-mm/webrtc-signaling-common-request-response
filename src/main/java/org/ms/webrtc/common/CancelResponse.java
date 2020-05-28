@@ -6,12 +6,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * 连接响应
+ * 取消响应
  */
 @Data
 @Builder
-@NoArgsConstructor
-@AllArgsConstructor
-public class ConnectResponse {
-    private String session_id;
+
+public class CancelResponse {
 }
