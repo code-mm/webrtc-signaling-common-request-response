@@ -6,7 +6,7 @@ def _snapshot = false
 // 组id
 def _groupId = "org.ms"
 // 项目id
-def _artifactId = "webrtc-common-request-response"
+def _artifactId = "webrtc-signaling-common-request-response"
 // 发布类型 aar jar
 def _packaging = "jar"
 // 发布版本
