@@ -7,6 +7,10 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class SessionDescription {
 
-public class DisconnectResponse {
+    private   String type;
+    private   String description;
 }
